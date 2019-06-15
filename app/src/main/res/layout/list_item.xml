@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/thing_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="9"
+    android:layout_marginBottom="5dp">
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:drawablePadding="4dp"/>
+
+    <TextView
+        android:id="@+id/thing_no"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:layout_margin="16dp"
+        android:text="No"/>-->
+
+    <TextView
+        android:id="@+id/thing_what"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:layout_margin="16dp"
+        android:text="What"/>
+
+    <TextView
+        android:id="@+id/thing_where"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:layout_margin="16dp"
+        android:text="Where"/>
+
+</LinearLayout>

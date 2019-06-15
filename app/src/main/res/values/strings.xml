@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tingle</string>
+    <string name="list_button">List all things</string>
+    <string name="add_button">Add new thing</string>
+    <string name="thing_phone">Android Phone</string>
+    <string name="what_thing">What thing?</string>
+    <string name="where">Where?</string>
+    <string name="delete_button">Delete</string>
+</resources>

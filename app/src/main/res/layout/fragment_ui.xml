@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/list_button"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/list_button"
+        android:background="#aabfd0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="12">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_marginLeft="18dp"
+            android:text="@string/what_thing"
+            android:layout_weight="3"
+            />
+        <EditText
+            android:id="@+id/what_text_input"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_marginRight="18dp"
+            android:inputType="text"
+            android:layout_weight="9"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="12">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_marginLeft="18dp"
+            android:text="@string/where"
+            android:layout_weight="3"/>
+
+        <EditText
+            android:id="@+id/where_text_input"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_marginRight="18dp"
+            android:inputType="text"
+            android:layout_weight="9"/>
+    </LinearLayout>
+
+    <!-- Button to list all things-->
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="@string/add_button"
+        android:background="#ff859c"/>
+
+    <!--<Button
+        android:id="@+id/delete_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="@string/delete_button"
+        android:background="#ff859c"/> -->
+
+    <TextView
+        android:id="@+id/api_version"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:padding="12dp"/>
+</LinearLayout>
+
